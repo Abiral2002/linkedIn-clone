@@ -47,11 +47,6 @@ function AddPost(props) {
 
   return (
     <div className="add_post">
-      {err ? (
-        <TopNoification color="red" message="Error Occured" />
-      ) : (
-        <TopNoification color="green" message="Solved" />
-      )}
       <div className="upper_addpost">
         <Avatar
           className="feed_avatar"
